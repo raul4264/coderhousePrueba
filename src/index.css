@@ -1,13 +1,108 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Helvetica';
+  background-color: rgb(236, 232, 222);
+}
+h1,
+h2,
+h3 {
+  margin: 0.5rem 0;
+}
+h1 {
+  font-size: 2.5rem;
+  color: black;
+}
+h2 {
+  font-size: 2.0rem;
+}
+h3 {
+  font-size: 1rem;
+}
+a {
+  text-decoration: none;
+}
+/* .row {
+  display: flex;
+  justify-content: space-between;
+}
+.row.center {
+  align-items: center;
+} */
+.col-1 {
+  flex: 1;
+}
+.col-2 {
+  flex: 2;
+}
+.block {
+  background-color:rgb(153, 151, 151);
+  padding: 1rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+}
+.text-right {
+  text-align: center;
+}
+img.small {
+  max-height: 30rem;
+  text-align: center;
+
+}
+button {
+  font-size: 0.8rem;
+  padding: 0.2rem;
+  margin: 0.1rem;
+  border-radius: 0.5rem;
+  border: 0.1rem #404040 solid;
+  background-color: #f0c040;
+  width: 100%;
+  cursor: pointer;
+}
+button.add {
+  background-color: #40c0f0;
+  width: 1.5rem;
+}
+button.remove {
+  background-color: #f04040;
+  width: 1.5rem;
+}
+button.badge {
+  background-color: #f04040;
+  border: none;
+  color: #ffffff;
+  width: 1.5rem;
+}
+.product{
+  
+  padding: 2rem;
+  text-align: center;
+  margin-left: 20px;
+ 
+}
+.descripcion{
+  background-color: rgb(224, 222, 217);
+  margin: 2vh;
+  margin-top: 4vh;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  
+
+
+  
+
+.producto{
+  background-color: grey;
+  height: 80vh;
+  text-align: center;
+  padding: 2vh;
+}
+.producto img{
+  margin-top: 20vh;
+}span{
+  color: rgb(248, 244, 244);
+  
 }
